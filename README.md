@@ -54,8 +54,7 @@ The full framework for simulating multiple trajectories in a parallel mode is co
 - the list of pairs of ISD parameters [D,&lambda;] (they can be multiple to explore more than one 'communication regime');
 - the number of cores that should be used (this value is bounded by the number of cores available on your machine).
 
-Having defined the parameters, the script will save, for each cell configuration and each parameter setting, in a .ISD format the matrix of mean absorption times and the matrix of absorption probabilities. From the latter the matrix of the exchange rates between cells is computed (see section 3).
--  The associated functions are included in the file [simfunctions.py](/simfunctions.py)
+Having defined the parameters, the script will save, for each cell configuration and each parameter setting, in a .ISD format the matrix of mean absorption times and the matrix of absorption probabilities. From the latter the matrix of the exchange rates between cells is computed (see section 3). The associated functions are included in the file [sim_functions.py](/sim_functions.py)
 
 # 3. Analysis of the precision of gradient sensing and reproducibility
 
