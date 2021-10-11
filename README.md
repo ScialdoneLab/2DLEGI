@@ -70,4 +70,4 @@ The notebook contains the following analyses:
 - Impact of tissue geometry (i.e., changes of the mean polygon number) on the precision of gradient sensing, in the NNE and ISD model and different communication regimes;
 - Comparison between the ISD and NNE communication modes for the same cell configurations.
 
-In the same notebook we also provide all the analyses needed to reproduce the supplementary figures. The functions used in the notebook are provided in [2DLEGI_rep_functions.py](2DLEGI_rep_functions.py).
+In the same notebook we also provide all the analyses needed to reproduce the supplementary figures.
