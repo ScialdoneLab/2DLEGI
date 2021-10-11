@@ -54,8 +54,7 @@ The full framework for simulating multiple trajectories in a parallel mode is co
 - the list of pairs of ISD parameters [D,&lambda;] (they can be multiple to explore more than one 'communication regime');
 - the number of cores that should be used (this value is bounded by the number of cores available on your machine).
 
-Having defined the parameters, the script will save, for each cell configuration and each parameter setting, in a .ISD format the matrix of mean absorption times and the matrix of absorption probabilities. From the latter the matrix of the exchange rates between cells is computed (see section 3).
--  The associated functions are included in the file [simfunctions.py](/simfunctions.py)
+Having defined the parameters, the script will save, for each cell configuration and each parameter setting, in a .ISD format the matrix of mean absorption times and the matrix of absorption probabilities. From the latter the matrix of the exchange rates between cells is computed (see section 3). The associated functions are included in the file [sim_functions.py](/sim_functions.py)
 
 # 3. Analysis of the precision of gradient sensing and reproducibility
 
@@ -71,4 +70,4 @@ The notebook contains the following analyses:
 - Impact of tissue geometry (i.e., changes of the mean polygon number) on the precision of gradient sensing, in the NNE and ISD model and different communication regimes;
 - Comparison between the ISD and NNE communication modes for the same cell configurations.
 
-In the same notebook we also provide all the analyses needed to reproduce the supplementary figures. The functions used in the notebook are provided in [2DLEGI_rep_functions.py](2DLEGI_rep_functions.py).
+In the same notebook we also provide all the analyses needed to reproduce the supplementary figures.
